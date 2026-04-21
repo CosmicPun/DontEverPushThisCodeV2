@@ -18,6 +18,7 @@ permissions:
   issues: write
   # TODO#0c: add permission for OIDC token (id-token)
   id-token: write
+  actions: read
 
 jobs:
     # GATE#0: Secret scanning (TruffleHog + Gitleaks)
